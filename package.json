@@ -1,0 +1,20 @@
+{
+  "name": "svelte",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "serve": "vite preview",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^1.0.0-next.7",
+    "svelte": "^3.37.0",
+    "vite": "^2.3.4",
+    "@babel/core": "7.8.7",
+    "@babel/preset-env": "^7.8.3",
+    "jest": "^26.2.2",
+    "svelte-jester": "^1.0.6",
+    "@testing-library/svelte": "^3.0.0"
+  }
+}
