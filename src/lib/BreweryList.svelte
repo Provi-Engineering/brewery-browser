@@ -16,8 +16,6 @@
   <div data-testid='brewerywrapper'>
     {#each breweries as brewery}
       <p>{brewery.name}</p>
-      <p>{brewery.street}</p>
-      <p>{brewery}</p>
     {/each}
   </div>
 {:else}
